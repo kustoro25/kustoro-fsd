@@ -8,21 +8,35 @@ const Projects = () => {
       link: "https://github.com/kustoro25/netflix-clone",
       title: "Netflix Clone",
       description:
-        "Using TMDB data, Firebase authentication for the watchlist, and responsive search features.",
+        "Integrated TMDB API for movie and series data, Implemented custom video player with playback controls, Applied responsive design and lazy loading for performance optimization",
     },
     {
       src: "/wpu.png",
       link: "https://github.com/kustoro25/wpu-acara",
       title: "Acara - WPU course",
       description:
-        "Platform event using Next.js and HeroUI, a role-based NextAuth system, and responsive design.",
+        "Developed end-to-end event management application with ticketing system , Built automated email reminders and confirmations, Created analytics dashboard for attendance tracking and feedback ",
     },
     {
       src: "/harisenin.png",
       link: "https://github.com/kustoro25/Mission-2-advanced-HariSenin",
       title: "Video Belajar - Bootcamp Mission",
       description:
-        "Educational video platform with React, an auth system, and responsive UI.",
+        "Developed learning platform with user roles (student, instructor, admin) , Implemented video streaming with adaptive bitrate and progress tracking , Created learning progress dashboard with basic analytics ",
+    },
+    {
+      src: "/vuestore.png",
+      link: "https://vuestore-rho.vercel.app/",
+      title: "VueStore E-commerce Platform",
+      description:
+        "Integration of REST API with Axios, Responsive UI/UX with modular component design, Product ratings and reviews",
+    },
+    {
+      src: "/porto.png",
+      link: "https://kustoro-fsd.vercel.app/",
+      title: "Portfolio Website",
+      description:
+        "Implemented animations and micro-interactions for enhanced UX, Applied responsive design and lazy loading for performance optimization ",
     },
   ];
 
