@@ -78,7 +78,7 @@ function HeroContent() {
         className="w-full lg:w-1/2 h-full flex justify-center items-center mt-8 lg:mt-0"
       >
         <Image
-          src="/mainIconsdark.svg"
+          src="/ppp.png"
           alt="work icons"
           height={500}
           width={500}

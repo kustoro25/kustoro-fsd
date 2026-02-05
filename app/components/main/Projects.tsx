@@ -63,17 +63,6 @@ const Projects = () => {
           </div>
         </div>
       </section>
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className=""
-        style={{ transform: "rotate(0deg)" }}
-      >
-        <source src="/review.webm" type="video/webm" />
-        Your browser does not support the video tag.
-      </video>
     </div>
   );
 };
