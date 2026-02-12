@@ -28,9 +28,18 @@ function HeroContent() {
           className="flex flex-col gap-3 sm:gap-4 lg:gap-6 mt-4 sm:mt-6 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white"
         >
           <span>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="text-transparent  bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               About Me
             </span>
+
+            <Image
+              src="/sy.jpeg"
+              alt="work icons"
+              height={100}
+              width={100}
+              className="w-24 mt-7 rounded-2xl h-24 sm:w-20 sm:h-20 lg:w-26 lg:h-26 xl:w-[150px] xl:h-[150px]"
+              priority
+            />
           </span>
         </motion.div>
 
@@ -78,7 +87,7 @@ function HeroContent() {
         className="w-full lg:w-1/2 h-full flex justify-center items-center mt-8 lg:mt-0"
       >
         <Image
-          src="/ppp.png"
+          src="/mainIconsdark.svg"
           alt="work icons"
           height={500}
           width={500}

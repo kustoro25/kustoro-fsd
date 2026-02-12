@@ -20,7 +20,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full h-[60px] sm:h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-4 sm:px-6 lg:px-10">
+    <nav className="w-full h-[60px] sm:h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md left-0 z-50 px-4 sm:px-6 lg:px-10">
       <div className="w-full h-full flex items-center justify-between m-auto">
         {/* Logo */}
         <a
